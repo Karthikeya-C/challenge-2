@@ -1,0 +1,27 @@
+/* Default Light Mode */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+nav {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode nav {
+    background-color: #222;
+}
+
+/* Add more styling for your content, buttons, etc. here */
